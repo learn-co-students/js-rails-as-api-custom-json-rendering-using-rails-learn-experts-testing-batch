@@ -1,3 +1,4 @@
+require "pry"
 class BirdsController < ApplicationController
   def index
     @birds = Bird.all
